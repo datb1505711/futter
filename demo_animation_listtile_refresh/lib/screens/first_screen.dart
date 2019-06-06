@@ -3,9 +3,10 @@ import 'package:list_title/actions/custom_popup_menu.dart';
 import 'package:list_title/main.dart';
 import 'package:list_title/models/constants.dart';
 import 'package:list_title/screens/homepage.dart';
-import 'package:list_title/screens/navigation_bar.dart' as prefix0;
+import 'package:list_title/screens/widgets/navigation_bar.dart' as prefix0;
 import 'package:list_title/screens/second_screen.dart';
-import 'navigation_bar.dart';
+import 'package:list_title/screens/widgets/navigation_bar.dart';
+import '../screens/widgets/navigatior.dart';
 
 class FirstScreen extends StatelessWidget {
   List<CustomPopupMenu> choices = <CustomPopupMenu>[

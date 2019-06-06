@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:list_title/reducers/flight.dart';
-
-
+import 'package:list_title/screens/third_screen.dart';
+import 'package:list_title/screens/widgets/flight.dart';
 import 'first_screen.dart';
 
 class SecondScreen extends StatelessWidget {
@@ -28,12 +27,12 @@ class SecondScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => FirstScreen(),
+                    builder: (context) => ThirdScreen(),
                   ),
                 );
               },
               child: Text(
-                'NavigationBar là ở màn hình lúc nãy kìa :)))',
+                'Demo TabBars :)))',
                 style: TextStyle(fontSize: 32.0),
               ),
             ),

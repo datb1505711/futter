@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/animation.dart';
 import 'package:list_title/screens/first_screen.dart';
 import 'package:list_title/screens/homepage.dart';
-import 'package:list_title/screens/navigatior.dart';
+import 'package:list_title/screens/widgets/navigatior.dart';
 import 'package:list_title/screens/tabview.dart';
 
 void main() => runApp(MyApp());
