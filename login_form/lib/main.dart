@@ -38,14 +38,15 @@ class _MyAppState extends State<MyApp> {
                 children: <Widget>[
                   //Column 1
                   new Container(
-                      decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.all(Radius.circular(25.0))),
-                      child: new Image(
-                        image: new AssetImage('images/user.png'),
-                        width: 60.0,
-                        height: 60.0,
-                      )),
+                    decoration: BoxDecoration(
+                        color: Colors.grey,
+                        borderRadius: BorderRadius.all(Radius.circular(25.0))),
+                    child: new Image(
+                      image: new AssetImage('images/user.png'),
+                      width: 60.0,
+                      height: 60.0,
+                    ),
+                  ),
 
                   //Column 2
                   new Container(
@@ -89,7 +90,8 @@ class _MyAppState extends State<MyApp> {
                             ),
                             decoration: InputDecoration(
                               labelText: "Password",
-                              errorText: _passwordInvalid ? _passwordError : null,
+                              errorText:
+                                  _passwordInvalid ? _passwordError : null,
                               labelStyle:
                                   TextStyle(color: Colors.grey, fontSize: 18.0),
                             ),
@@ -178,10 +180,9 @@ class _MyAppState extends State<MyApp> {
         _userInvalid = false;
       }
 
-      if(_passwordController.text.length <6){
+      if (_passwordController.text.length < 6) {
         _passwordInvalid = true;
-      }
-      else{
+      } else {
         _passwordInvalid = false;
       }
     });
