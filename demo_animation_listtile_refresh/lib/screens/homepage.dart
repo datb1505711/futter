@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:list_title/screens/first_screen.dart';
+import 'package:list_title/screens/first_screen/first_screen.dart';
 
 class HomePage extends StatefulWidget {
   @override
